@@ -19,6 +19,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 input{
@@ -36,7 +37,7 @@ h1{
     line-height: 1.1;
 }
 h2{
-    font-size: clamp(2.4rem,6vw,3rem);
+    font-size: clamp(2.4rem,5vw,2.6rem);
 }
 h3{
     font-size: clamp(2rem,5vw,2.3rem);
