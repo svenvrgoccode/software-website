@@ -41,6 +41,12 @@
                         </span>
                     </span>
                 </div>
+                <div class="hamburger">
+                    <svg width="448" height="384" viewBox="0 0 448 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 32C0 14.3 14.3 0 32 0H416C433.7 0 448 14.3 448 32C448 49.7 433.7 64 416 64H32C14.3 64 0 49.7 0 32ZM0 192C0 174.3 14.3 160 32 160H416C433.7 160 448 174.3 448 192C448 209.7 433.7 224 416 224H32C14.3 224 0 209.7 0 192ZM448 352C448 369.7 433.7 384 416 384H32C14.3 384 0 369.7 0 352C0 334.3 14.3 320 32 320H416C433.7 320 448 334.3 448 352Z" fill="#FF6B2B"/>
+                        </svg>
+                        
+                </div>
             </div>
         </nav>
     </header>
@@ -48,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Software Solutions For <span>Enterprise</span></h1>
+                    <h1>Software Solutions <br> For <span id="typed"></span></h1>
                     <p> Boost your business with cutting-edge software solutions tailored to the needs of modern enterprises. </p>
                     <a class="btn" href="#">Learn More</a>
                 </div>
@@ -300,21 +306,15 @@
             <div class="row">
                 <div class="video-modal">
                     <img src="images/video-preview.jpg" alt="People in office">
-                    <div class="play-wrap">
-                        <svg width="161" height="162" viewBox="0 0 161 162" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_58_55)">
-                            <path d="M118.752 42.7482H42.2482V119.252H118.752V42.7482Z" fill="white"/>
-                            <path d="M0 81C0 59.6501 8.48123 39.1746 23.5779 24.0779C38.6746 8.98123 59.1501 0.5 80.5 0.5C101.85 0.5 122.325 8.98123 137.422 24.0779C152.519 39.1746 161 59.6501 161 81C161 102.35 152.519 122.825 137.422 137.922C122.325 153.019 101.85 161.5 80.5 161.5C59.1501 161.5 38.6746 153.019 23.5779 137.922C8.48123 122.825 0 102.35 0 81ZM59.2115 46.7561C56.8217 48.0768 55.3438 50.6238 55.3438 53.3281V108.672C55.3438 111.408 56.8217 113.923 59.2115 115.244C61.6014 116.565 64.4943 116.533 66.8527 115.087L112.134 87.4148C114.367 86.0312 115.75 83.61 115.75 80.9686C115.75 78.3271 114.367 75.9059 112.134 74.5223L66.8527 46.8504C64.5258 45.4353 61.6014 45.3725 59.2115 46.6932V46.7561Z" fill="#FF6B2B"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_58_55">
-                            <rect width="161" height="162" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            
+                    <div class="wrap">
+                        <div class="play-wrap">
+                            <img src="images/play.png" >
+                        </div>
+                        <div class="circle"></div>
                     </div>
                 </div>
+                <iframe class="video " width="560" height="315" src="https://www.youtube.com/embed/QyhwSYhX09s?si=bsdqcNWukbBEtBxK" frameborder="0" allowfullscreen></iframe>
+                <div class="overlay"></div>
             </div>
             <div class="row">
                 <div class="col">
@@ -394,17 +394,53 @@
                         <strong>Orkla Foods</strong> - Donec bibeum mollis liga sit amet pulvinar sed viverra noris   
                     </p>
                 </div>
+                <div class="modal">
+                    <img src="images/project-1.jpg" alt="Project image">
+                    <div class="text">
+                        <h2>Orkla Foods</h2>
+                        <p> Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo. Integer semper quam at rutrum interdum. Mauris eu diam ac urna laoreet mollis et </p>
+                        <p> Praesent lacus tortor, facilisis non enim eu, luctus semper velit. Curabitur faucibus diam in lectus. </p>
+                        <div class="button-wrap">
+                            <a href="#" class="btn">Details</a>
+                            <a href="#" class="btn">Close</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col">
                     <img src="images/project-2.jpg" alt="Project image">
                     <p>
                         <strong>First Bank</strong> - Donec bibeum mollis liga sit amet pulvinar sed viverra noris   
                     </p>
                 </div>
+                <div class="modal">
+                    <img src="images/project-2.jpg" alt="Project image">
+                    <div class="text">
+                        <h2>First Bank</h2>
+                        <p> Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo. Integer semper quam at rutrum interdum. Mauris eu diam ac urna laoreet mollis et </p>
+                        <p> Praesent lacus tortor, facilisis non enim eu, luctus semper velit. Curabitur faucibus diam in lectus. </p>
+                        <div class="button-wrap">
+                            <a href="#" class="btn">Details</a>
+                            <a href="#" class="btn">Close</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col">
                     <img src="images/project-3.jpg" alt="Project image">
                     <p>
                         <strong>All Sweets</strong> - Donec bibeum mollis liga sit amet pulvinar sed viverra noris 
                     </p>
+                </div>
+                <div class="modal">
+                    <img src="images/project-3.jpg" alt="project image">
+                    <div class="text">
+                        <h2>All Sweets</h2>
+                        <p> Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo. Integer semper quam at rutrum interdum. Mauris eu diam ac urna laoreet mollis et </p>
+                        <p> Praesent lacus tortor, facilisis non enim eu, luctus semper velit. Curabitur faucibus diam in lectus. </p>
+                        <div class="button-wrap">
+                            <a href="#" class="btn">Details</a>
+                            <a href="#" class="btn">Close</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -414,11 +450,35 @@
                         <strong>Fast Courier</strong> - Donec bibeum mollis liga sit amet pulvinar sed viverra noris   
                     </p>
                 </div>
+                <div class="modal">
+                    <img src="images/project-1.jpg" alt="Project image">
+                    <div class="text">
+                        <h2>Fast Courier</h2>
+                        <p> Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo. Integer semper quam at rutrum interdum. Mauris eu diam ac urna laoreet mollis et </p>
+                        <p> Praesent lacus tortor, facilisis non enim eu, luctus semper velit. Curabitur faucibus diam in lectus. </p>
+                        <div class="button-wrap">
+                            <a href="#" class="btn">Details</a>
+                            <a href="#" class="btn">Close</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col">
                     <img src="images/project-5.jpg" alt="Project image">
                     <p>
                         <strong>Lyra market</strong> - Donec bibeum mollis liga sit amet pulvinar sed viverra noris   
                     </p>
+                </div>
+                <div class="modal">
+                    <img src="images/project-2.jpg" alt="Project image">
+                    <div class="text">
+                        <h2>Lyra market</h2>
+                        <p> Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo. Integer semper quam at rutrum interdum. Mauris eu diam ac urna laoreet mollis et </p>
+                        <p> Praesent lacus tortor, facilisis non enim eu, luctus semper velit. Curabitur faucibus diam in lectus. </p>
+                        <div class="button-wrap">
+                            <a href="#" class="btn">Details</a>
+                            <a href="#" class="btn">Close</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <img src="images/project-6.jpg" alt="Project image">
@@ -426,8 +486,21 @@
                         <strong>Monday Stores</strong> - Donec bibeum mollis liga sit amet pulvinar sed viverra noris 
                     </p>
                 </div>
+                <div class="modal">
+                    <img src="images/project-3.jpg" alt="Project image">
+                    <div class="text">
+                        <h2>Monday Stores</h2>
+                        <p> Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo. Integer semper quam at rutrum interdum. Mauris eu diam ac urna laoreet mollis et </p>
+                        <p> Praesent lacus tortor, facilisis non enim eu, luctus semper velit. Curabitur faucibus diam in lectus. </p>
+                        <div class="button-wrap">
+                            <a href="#" class="btn">Details</a>
+                            <a href="#" class="btn">Close</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="modal-overlay"></div>
     </section>
     <section class="newsletter-index">
         <div class="container">
@@ -482,5 +555,87 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#typed', {
+          strings: ["Startups", "Small Business", "Enterprise"],
+          typeSpeed: 100, 
+          backSpeed: 30, 
+          loop: true 
+        });
+
+        
+        const play = document.querySelector('.play-wrap')
+        const playImg = document.querySelector('.play-wrap img')
+        const video = document.querySelector('.video')
+        const overlay = document.querySelector('.overlay')
+        const modalOverlay = document.querySelector('.modal-overlay')
+        const modals = document.querySelectorAll('.modal')
+        const modalClose = document.querySelectorAll('.modal .button-wrap .btn:last-of-type')
+        const header = document.querySelector('header')
+        const hamburger = document.querySelector('.hamburger')
+        const navDropdown = document.querySelector('.nav-dropdown')
+
+
+        hamburger.addEventListener('click',(e)=>{
+            navDropdown.classList.toggle('active')
+        })
+
+
+        let col = document.querySelectorAll('.projects-index .col')
+
+        col.forEach((col)=>{
+            col.addEventListener('click',(e)=>{
+                const col = e.target.closest('.col')
+                const modal = col.nextElementSibling
+                modal.classList.add('active')
+                modalOverlay.classList.add('active')
+            })
+        })
+
+        modalClose.forEach((close)=>{
+            close.addEventListener('click',(e)=>{
+                e.preventDefault();
+                modals.forEach((modal)=>{
+                    modal.classList.remove('active')
+                })
+                modalOverlay.classList.remove('active')
+            })
+        })
+
+        play.addEventListener('click',(e)=>{
+            video.classList.add('active')
+            overlay.classList.add('active')
+        })
+        document.addEventListener('click',function(e){
+            let targetElement = e.target
+
+
+            if (targetElement !== video && targetElement !== play && targetElement !== playImg) {
+            video.classList.remove('active');
+             overlay.classList.remove('active');
+              }
+            if(e.target === modalOverlay){
+                modals.forEach((modal)=>{
+                    modal.classList.remove('active')
+                    modalOverlay.classList.remove('active')
+                })
+            }
+        
+        })
+
+
+        window.addEventListener('scroll',function(){
+            if(window.scrollY > 50){
+                header.classList.add('active')
+            }
+            else{
+                header.classList.remove('active')
+            }
+        })
+
+
+      </script>
+      
 </body>
 </html>
